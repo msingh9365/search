@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="advSearch.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="C:\Users\Manish\Documents\Programming\CS50W\search\index.html" class="homeLink" style="transform: translate(-30px, 15px);">Google Search</a>
+    </div>
+    <div class="hr"></div>
+    <div class="heading">
+        <label class="label-0">Advanced Search</label>
+    </div>
+    <div class="hr"></div>
+    <div class="search">
+        
+        <form action="https://www.google.com/search">
+            <div class="form">
+
+                <label  class="label-1">Find pages with...</label>
+                <div></div>
+                <label class="hint_label">To do this in the search box.</label>
+                
+                    <div class="qString"><label for="as_q">all these words:</label></div>
+                    <div class="qString"><input type="text"  autocomplete="off" name="as_q" id="as_q"></div>
+                    <div class="hint"><label >Type the important words: tri-colour rat terrier</label></div>
+                
+                    <div class="qString"><label for="as_eq">this exact word or phrase:</label></div>
+                    <div class="qString"><input type="text"  autocomplete="off" name="as_epq" id="as_epq"></div>
+                    <div class="hint"><label >Put exact words in quotes: "rat terrier"</label></div>
+                
+                    <div class="qString"><label for="as_op">any of these words:</label></div>
+                    <div class="qString"><input type="text"  autocomplete="off" name="as_oq" id="as_oq"></div>
+                    <div class="hint"><label >Type OR between all the words you want: miniature OR standard</label></div>
+                
+                    <div class="qString"><label for="as_eq">none of these words:</label></div>
+                    <div class="qString"><input type="text"  autocomplete="off" name="as_ep" id="as_ep"></div>
+                    <div class="hint"><label >Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                    </label></div>
+                
+                    <div class="qString"><label >numbers range from:</label></div>
+                    <div class="qString">
+                        <input type="text"  autocomplete="off" name="as_nlo" id="as_nlo" style="width: 170px;">
+                        <label style="margin: 0 1em;">to</label>
+                        <input type="text"  autocomplete="off" name="as_nhi" id="as_nhi" style="width: 170px;">
+                    </div>
+                    <div class="hint"><label >Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</label></div>
+
+                    <div></div>
+                    <div class="submitBtn"><input type="submit" value="Advanced Search"></div>
+            </div>
+        </form>
+
+        
+    </div>
+
+
+</body>
+</html>

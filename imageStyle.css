@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    border:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.nav{
+    align-self: flex-end;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.img{
+    margin-top: 8%;
+}
+
+
+.searchBox{
+    align-self: center;
+
+}
+
+.btn{
+    text-align: center;
+}
+
+
+.searchBox input[type='text']{
+    padding-left: 1em;
+    margin-top: 1em;
+    display: block;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0;
+    border-radius: 24px;
+    height: 44px;  
+    font: 16px arial,sans-serif;
+    padding-left: 13px;  
+}
+
+.searchBox input[type='text']:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+
+.searchBox input[type='submit']{
+    
+    cursor: pointer;
+    padding-top: 18px;
+    margin-left: 270px;
+    height: 36px;
+    min-width: 54px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 21px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    outline: none;
+    
+}
+
+.searchBox input[type='submit']:hover{
+
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+
+}
+.searchBox input[type='submit']:focus{
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+
+
+
+.searchBox input[type='text']:focus{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+    outline: none;
+}
+
+a{
+    color:rgba(0, 0, 0, 0.87);
+    cursor:pointer;
+    
+    font-family:arial, sans-serif;
+    font-size:15px;
+    height:24px;
+    line-height:24px;
+    outline-color:rgba(0, 0, 0, 0.87);
+    outline-style:none;
+    outline-width:0px;
+    
+    text-decoration-color:rgba(0, 0, 0, 0.87);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    user-select:none;
+    
+}
+
+.img span{
+    
+    transform: translate(-55px, 75px);
+    position: absolute;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
